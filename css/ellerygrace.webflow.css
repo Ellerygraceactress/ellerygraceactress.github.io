@@ -463,6 +463,10 @@ strong {
   padding-bottom: 8em;
 }
 
+.section.resume-section.hide {
+  display: none;
+}
+
 .section.form-section {
   width: 100vw;
   flex-direction: column;
@@ -1008,6 +1012,12 @@ strong {
   display: flex;
 }
 
+.resume-wrapper._2 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .resume-left {
   padding-top: 4em;
 }
@@ -1118,6 +1128,16 @@ strong {
 }
 
 .social-link:hover {
+  background-color: #de6b87;
+}
+
+.social-link.resume {
+  width: 46em;
+  background-color: #1f1f1f;
+  margin-top: 1em;
+}
+
+.social-link.resume:hover {
   background-color: #de6b87;
 }
 
@@ -1284,6 +1304,10 @@ strong {
 
 .resume-mobile {
   display: none;
+}
+
+.img-resume {
+  width: 46em;
 }
 
 html.w-mod-js [data-ix="ths13-scroll-line-move"] {
@@ -1645,6 +1669,10 @@ html.w-mod-js [data-ix="ths13-scroll-line-move"] {
   .resume-mobile {
     margin-top: 2em;
     display: flex;
+  }
+
+  .img-resume {
+    width: 100%;
   }
 }
 
